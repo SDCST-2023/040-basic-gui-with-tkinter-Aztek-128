@@ -28,7 +28,7 @@ lable3 = tk.Label(window, text="Note that an image can be in a label or a button
 
 button1 = tk.Button(window,text="A button\nis clickable")
 
-entry1 = tk.Entry(window,text="Entry widgets can be typed in", borderwidth=3, relief=SUNKEN)
+entry1 = tk.Entry(window,text="Entry widgets can be typed in", borderwidth=3, relief=RAISED)
 
 combo = ttk.Combobox(window,values=["1","2","3"])
 
