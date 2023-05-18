@@ -14,9 +14,9 @@ label2 = tk.Label(window,text="a cuddly little puppy! This is from the same \ncr
 
 
 
-labeldog.grid(row = 1,column=1 )
-label1.grid(row = 1,column=2 )
-label2.grid(row = 2,column= 1, columnspan= 2)
+labeldog.place(side = LEFT )
+label1.place(side= RIGHT )
+label2.place()
 
 
 window.mainloop()
