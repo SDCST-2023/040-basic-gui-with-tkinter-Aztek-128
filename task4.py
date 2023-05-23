@@ -4,6 +4,7 @@ from tkinter.constants import LEFT, RIGHT
 
 window = tk.Tk()
 window.title("example")
+window.geometry("250x150")
 
 
 dog = tk.PhotoImage(file="dog.png")
@@ -14,9 +15,9 @@ label2 = tk.Label(window,text="a cuddly little puppy! This is from the same \ncr
 
 
 
-labeldog.place(side = LEFT )
-label1.place(side= RIGHT )
-label2.place()
+labeldog.place(x = 40, y =0)
+label1.place(x = 110, y = 40)
+label2.place(x = 0, y = 100)
 
 
 window.mainloop()
